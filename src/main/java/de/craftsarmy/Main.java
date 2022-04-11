@@ -36,6 +36,7 @@ public class Main {
         jda = builder.build();
 
         CommandManager.register(InviteCommand.class);
+        CommandManager.update();
     }
 
 }
